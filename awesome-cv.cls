@@ -89,7 +89,8 @@
   pdfkeywords={}
 }
 % set hyperlink to blue
-\hypersetup{colorlinks=true,citecolor=blue,linkcolor=blue,linktocpage=true}
+\hypersetup{colorlinks=true,citecolor=blue,linkcolor=blue,urlcolor=nico-blue,linktocpage=true}
+
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -147,6 +148,8 @@
 \definecolor{awesome-concrete}{HTML}{95A5A6}
 \definecolor{awesome-darknight}{HTML}{131A28}
 \colorlet{awesome}{awesome-red}
+% my colors
+\definecolor{nico-blue}{HTML}{0D47A1}
 
 % Boolean value to switch section color highlighting
 \newbool{acvSectionColorHighlight}
