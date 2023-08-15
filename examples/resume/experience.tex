@@ -1,7 +1,7 @@
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
 %-------------------------------------------------------------------------------
-\cvsection{Work Experience}
+\cvsection{Research Experience}
 
 
 %-------------------------------------------------------------------------------
@@ -11,104 +11,99 @@
 
 %---------------------------------------------------------
   \cventry
-    {Site Reliability Engineer \& Infrastructure Team Lead} % Job title
-    {Danggeun Pay Inc. (KarrotPay)} % Organization
-    {Seoul, S.Korea} % Location
-    {Mar. 2021 - Present} % Date(s)
+    {PhD student} % Job title
+    {Genomics and Regulatory Systems Unit (PI: Nicholas Luscombe), Okinawa Institute of Science and Technology} % Place of work
+    {Okinawa, Japan} % Location
+    {Mar. 2022 - Present} % Date(s)
     {
       \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Everything that matters.}
-        \item {Designed and provisioned the entire infrastructure on the AWS cloud to meet security compliance and acquire a business license for financial services in Korea.}
-        \item {Continuously improved the infrastructure architecture since launching the service. (currently 3.6 million users)}
+        \item {Project: Investigation of transcriptional regulation in \textit{O. dioica}}
+        \item {Analysis of RNA-seq, ATAC-seq, CAGE-seq, and other epigenetic sequencing data}
+        \item {Improved genome annotation of \textit{O. dioica}}
+      \end{cvitems}
+    }
+
+  \cventry
+    {PhD Rotation student} % Job title
+    {Macroevolution Unit (PI: Lauren Sallan), Okinawa Institute of Science and Technology} % Place of work
+    {Okinawa, Japan} % Location
+    {2023} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Project: Investigation of dental microwear analysis in fish-tetrapod transition}
+        \item {Established fish facility for Polypterus}
+        \item {Performed dental molding of fossils and subsequent scanning using confocal microscope}
+      \end{cvitems}
+    }
+
+  \cventry
+    {PhD Rotation student} % Job title
+    {Marine Eco-Evo-Devo Unit (PI: Vincent Laudet), Okinawa Institute of Science and Technology} % Place of work
+    {Okinawa, Japan} % Location
+    {2022} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Project: Investigation of metabolic gene duplication in clownfish}
+        \item {Performed gene duplication analysis using computational phylogenetic analysis}
+        \item {Performed fish dissection for RNA extraction and subsequent qPCR analysis}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Undergraduate – Master’s student} % Job title
+    {Laboratory for Cell Systems (PI: Mariko Okada), Osaka University} % Place of work
+    {Osaka, Japan} % Location
+    {Feb. 2019 – Mar. 2022} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Project: NF‑κB mediated transcriptional regulation in B cell}
+        \item {Performed quantitative imaging analysis of NF‑κB nuclear translocation using confocal microscope and ImageJ}
+        \item {Performed single‑cell RNA‑seq and single‑cell ATAC‑seq analysis to find the relationship between cis‑regulatory elements and gene expression}
+        \item {Performed single‑molecule RNA‑FISH and qPCR for the confirmation of RNA‑seq results}
+        \item {Performed cloning for both transient and permanent expression of fluorescent‑tagged protein of interest}
+        \item {In charge of side projects concerning RNA‑seq analysis and training of visiting researchers on RNA‑seq analysis}
+      \end{cvitems}
+    }
+  
+  \cventry
+    {Research Assistant} % Job title
+    {Laboratory of Science and Innovation for Pain, Osaka University} % Place of work
+    {Osaka, Japan} % Location
+    {Apr. 2018 – Feb. 2019} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Performed mouse genotyping, RNA extraction and ELISA}
+        \item {Performed image analysis of mouse MRI images}
+        \item {In charge of laboratory cleanliness}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Associate Project Leader for Osaka University BIOMOD 2017-2018} % Job title
+    {Bio Medical Wet Robotics Laboratory (PI: Morishima Keisuke), Osaka University} % Place of work
+    {Osaka, Japan} % Location
+    {2017-2018} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Performed basic DNA origami experiments}
+        \item {Performed 3D modeling and computer simulated DNA origami design}
+      \end{cvitems}
+    }
+
+  \cventry
+    {Research Intern} % Job title
+    {Laboratory of Cellular Life Science (PI: Naotada Ishihara), Osaka University} % Place of work
+    {Osaka, Japan} % Location
+    {Sep. 2018 – Feb. 2019} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Project: Quantification of Mitochondrial Morphology}
+        \item {Performed quantitative analysis of mitochondrial morphology using ImageJ}
+        \item {Performed basic experiments such as mammalian cell culture and confocal imaging}
       \end{cvitems}
     }
 
 %---------------------------------------------------------
-  \cventry
-    {Site Reliability Engineer} % Job title
-    {Danggeun Market Inc.} % Organization
-    {Seoul, S.Korea} % Location
-    {Feb. 2021 - Mar. 2021} % Date(s)
-    {
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Founding Member \& Director of Infrastructure Division} % Job title
-    {Kasa} % Organization
-    {Seoul, S.Korea} % Location
-    {Jun. 2018 - Jan. 2021} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Designed on-boarding process to guide new engineers, help them to focus on the right tasks, and set expectations to help them be successful at Infrastructure team.}
-        \item {Migrated the orchestration system from DC/OS to Kubernetes which is based on AWS EKS. Managed 3 Kubernetes clusters and 300+ pods. Managed all Kubernetes manifests declaratively with Kustomize and ArgoCD.}
-        \item {Designed and managed complex network configurations on AWS with 4 VPC and 100+ subnets. Separated the development network and operation network according to financial regulations. Established dedicated network connections from AWS VPC to partners' on-premise network based on AWS Direct Connect with secure connection using IPsec VPN. Provisioned OpenVPN servers with LDAP integration.}
-        \item {Provisioned a observability system with Kafka, Elastic Stack(Filebeat, Heartbeat, APM Server, Logstash, Elasticsearch, Kibana). Collected log, uptime, tracing data from hosts, containers, pods and more. The ES cluster which has 9 nodes processed more than 1 billion documents per month. Wrote Terraform module to easily provision ES cluster on AWS EC2 instances.}
-        \item {Provisioned a monitoring system with Kafka, Telegraf, InfluxDB, Grafana. Collected metrics from hosts, containers, pods and more. Wrote Terraform module to easily provision InfluxDB with HA on AWS EC2 instances.}
-        \item {Introduced Kong API Gateway to easily connect all API microservices with a declarative management method based on Terraform and Atlantis to collaborate and audit change history.}
-        \item {Provisioned the Directory Service for employee identity management based on OpenLDAP which guarantees HA with multi-master replication.}
-        \item {Implemented Worker microservices consuming Kafka event topics for email, SMS, Kakaotalk and Slack notification. Developed in-house framework to easily build Kafka consumer microservice with common features including retry on failure, DLQ(Dead Letter Queue), event routing and more.}
-        \item {Introduced Elastic APM to help distributed tracing, trouble-shooting and performance testing in MSA.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Software Architect} % Job title
-    {Omnious. Co., Ltd.} % Organization
-    {Seoul, S.Korea} % Location
-    {Jun. 2017 - May. 2018} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Provisioned an easily managable hybrid infrastructure(Amazon AWS + On-premise) utilizing IaC(Infrastructure as Code) tools like Ansible, Packer and Terraform.}
-        \item {Built fully automated CI/CD pipelines on CircleCI for containerized applications using Docker, AWS ECR and Rancher.}
-        \item {Designed an overall service architecture and pipelines of the Machine Learning based Fashion Tagging API SaaS product with the micro-services architecture.}
-        \item {Implemented several API microservices in Node.js Koa and in the serverless AWS Lambda functions.}
-        \item {Deployed a centralized logging environment(ELK, Filebeat, CloudWatch, S3) which gather log data from docker containers and AWS resources.}
-        \item {Deployed a centralized monitoring environment(Grafana, InfluxDB, CollectD) which gather system metrics as well as docker run-time metrics.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Co-founder \& Software Engineer} % Job title
-    {PLAT Corp.} % Organization
-    {Seoul, S.Korea} % Location
-    {Jan. 2016 - Jun. 2017} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Implemented RESTful API server for car rental booking application(CARPLAT in Google Play).}
-        \item {Built and deployed overall service infrastructure utilizing Docker container, CircleCI, and several AWS stack(Including EC2, ECS, Route 53, S3, CloudFront, RDS, ElastiCache, IAM), focusing on high-availability, fault tolerance, and auto-scaling.}
-        \item {Developed an easy-to-use Payment module which connects to major PG(Payment Gateway) companies in Korea.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Software Engineer \& Security Researcher (Compulsory Military Service)} % Job title
-    {R.O.K Cyber Command, MND} % Organization
-    {Seoul, S.Korea} % Location
-    {Aug. 2014 - Apr. 2016} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
-        \item {Implemented a distributed web stress test tool with high anonymity.}
-        \item {Implemented a military cooperation system which is web based real time messenger in Scala on Lift.}
-      \end{cvitems}
-    }
-
-%---------------------------------------------------------
-  \cventry
-    {Software Engineer} % Job title
-    {ShitOne Corp.} % Organization
-    {Seoul, S.Korea} % Location
-    {Dec. 2011 - Feb. 2012} % Date(s)
-    {
-      \begin{cvitems} % Description(s) of tasks/responsibilities
-        \item {Developed a proxy drive smartphone application which connects proxy driver and customer.}
-        \item {Implemented overall Android application logic and wrote API server for community service, along with lead engineer who designed bidding protocol on raw socket and implemented API server for bidding.}
-      \end{cvitems}
-    }
 
 %---------------------------------------------------------
 \end{cventries}
