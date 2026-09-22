@@ -833,3 +833,5 @@
 % penalty for orphans
 \clubpenalty=10000
 \widowpenalty=10000
+
+\renewcommand{\baselinestretch}{0.9}
